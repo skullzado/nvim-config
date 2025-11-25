@@ -17,7 +17,7 @@ end
 -- Put lazy into the runtimepath (rtp) for neovim
 vim.opt.rtp:prepend(lazypath)
 
-require("config.vim-options")
+require("vim-options")
 
 -- Setup lazy.nvim
 require("lazy").setup({
